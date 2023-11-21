@@ -1,0 +1,177 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../Screenshot\ 2023-11-20\ 191517.png");
+}
+
+
+nav {
+   
+    padding: 15px;
+    text-align: center;
+    width: 2000px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; 
+    margin: 0 10px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+
+}
+
+nav a:hover {
+    color: #7FDBFF; 
+    font-weight: bold;
+   
+}
+header {
+    background-color:transparent;
+    
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#home1{
+    
+    text-align: center;
+    color: #fff;
+}
+
+#home1:hover{
+    color: rgb(182, 235, 229);
+    background-image: -webkit-linear-gradient();
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #060000;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: rgb(76, 84, 175);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to left, #0c0537, #043369, #006199, #0092c5, #12c6eb);
+}
+
+
+
+
+
+.hero {
+    background-image: url('../space-perspective-capsule.jpg'); 
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 100px 0;
+
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: rgb(5, 171, 242);
+    color: #140202;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+    
+}
+
+.cta-button:hover {
+    color: #fff;
+    background-image: url(./Screenshot\ 2023-11-20\ 191517.png);
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+#cont{
+    text-wrap: left;
+}
+
+#Flights{
+    font-size:x-large;
+    background-image: linear-gradient(to right top, #18181c, #404148, #6c6e7a, #9ca0af, #ced4e8);
+    font-family: Space Grotesk;
+    text-align: center;
+}
+
+#walk{
+    font-family: Space Grotesk;
+    font-size:x-large;
+    text-align: center;   
+    background-image: linear-gradient(to right top, #18181c, #404148, #6c6e7a, #9ca0af, #ced4e8);
+}
+
+#hotels{
+    font-family: Space Grotesk;
+    text-align: center;
+    font-size:x-large;
+    background-image: linear-gradient(to right top, #18181c, #404148, #6c6e7a, #9ca0af, #ced4e8);
+}
+
+
+#blog1{
+    display: flex;
+    align-items:flex-start; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding-left: 29px;
+}
+
